@@ -8,7 +8,7 @@ let cart = document.querySelector('.cart-add');
 function CartAddEvent(i) {
     cart.insertAdjacentHTML('beforebegin',
         `    
-        <a class="basket_linc" href="singlpage.html">
+        <a class="basket_linc" href="#">
 
             <div class="basket_linc_box">
                 <div>
