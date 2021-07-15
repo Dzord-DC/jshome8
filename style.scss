@@ -233,6 +233,10 @@ display: block;
 }
 .basket_linc_box{
     display: flex;
+    justify-content: space-around;
+}
+.sum-item{
+    border: none;
 }
 .basket_linc{
 display: block;
@@ -246,6 +250,9 @@ display: block;
 }
 .basket_linc:hover{
     color: $color_red;
+}
+.basket_img{
+    width: 80px;
 }
 .basket_button1{
     display: flex;

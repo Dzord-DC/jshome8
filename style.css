@@ -299,6 +299,12 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sum-item {
+  border: none;
 }
 
 .basket_linc {
@@ -314,6 +320,10 @@ input {
 
 .basket_linc:hover {
   color: #f16d7f;
+}
+
+.basket_img {
+  width: 80px;
 }
 
 .basket_button1 {
